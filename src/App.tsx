@@ -1,5 +1,11 @@
+import Button from "@mui/material/Button";
+
 function App() {
-  return <div className="">초기 세팅</div>;
+  return (
+    <div className="">
+      <Button variant="contained">버튼</Button>
+    </div>
+  );
 }
 
 export default App;
